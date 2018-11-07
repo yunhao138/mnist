@@ -2,6 +2,7 @@ import tensorflow as tf
 import inference
 from tensorflow.examples.tutorials.mnist import input_data
 
+
 def eval():
     mnist = input_data.read_data_sets('mnist/', one_hot=True)
 
